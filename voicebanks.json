@@ -104,37 +104,6 @@
         }
       }
     },
-
-    "toisku": {
-      "name": "Toisku",
-      "team": "Emerald Project",
-      "website_url": "https://emeraldsingers.github.io/",
-      "link": "https://emeraldsingers.github.io/singer/toisku",
-      "cv": "Leshy-P",
-      "images": ["https://emeraldsingers.github.io/images/toisku_thumb.webp"],
-      "description": "Hi",
-      "voicebanks": {
-        "CVVC": {
-          "id": "toisku-cvvc",
-          "description": "CVVC voicebank package",
-          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/untagged-687aad98959dc11ffeed/Toisku.CVVC.JPN.zip",
-          "supportedLanguages": ["ja"],
-          "types": ["CVVC"],
-          "engines": ["UTAU"],
-          "install_subdir": "Toisku_CVVC"
-        },
-        "CVC RUS": {
-          "id": "toisku-cvc-rus",
-          "description": "CVC RUS voicebank package",
-          "url": "https://github.com/emeraldsingers/UtauV_Packages/releases/download/toisku/Toisku.CVC.RUS.zip",
-          "supportedLanguages": ["ru"],
-          "types": ["CVC"],
-          "engines": ["UTAU"],
-          "install_subdir": "Toisku_CVC_RUS"
-        }
-      }
-    },
-
     "kira": {
       "name": "Fukuna Kira",
       "team": "Emerald Project",
