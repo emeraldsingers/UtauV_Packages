@@ -84,6 +84,15 @@
     "homepage_url": "https://github.com/Cadlaxa/OpenUtau",
     "versions": [
       {
+        "version": "1.0.5",
+        "description": "Core SBP update (since it fails/errors out dues to the ParentToneShift update openutau#2236), this phonemizer is useable only for OpenUTAU Master branch version and up, any forks that inherits the latest master branch will also work, version 0.1.568 Beta or lower will not work since it needs the new ParentToneShift update\nFixes to cc's, it now properly distinguishes the format types across different Japanese banks\npriority ([C C/CC/C CC/CCC] > [C] > [kana])",
+        "mirrors": [
+          {
+            "url": "https://github.com/Cadlaxa/OpenUtau/releases/download/en2ja%2B_phonemizer/EN2JA+.v105.zip"
+          }
+        ]
+      },
+      {
         "version": "1.0.1",
         "description": "Update",
         "mirrors": [
