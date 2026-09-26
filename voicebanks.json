@@ -252,7 +252,7 @@
       "link": "https://visingers.github.io/hhskt/Awata_Weak/",
       "images": ["https://raw.githubusercontent.com/hhskt/Awata_Weak/main/image.png"],
       "description": "Awata Weak is a robot designed to look like a young girl. She is a virtual singer with a soft, feminine voice.",
-      "long_description": "Multilingual DiffSinger voicebank. For Russian, you must use this phonemizer: https://github.com/Megageorgio/hhskt_ru_phonemizer",
+      "long_description": "A multilingual DiffSinger voicebank. For Russian, this phonemizer is required: https://github.com/Megageorgio/hhskt\_ru\_phonemizer",
       "voicebanks": {
         "DiffSinger": {
           "id": "visingers-awata-weak-ds",
