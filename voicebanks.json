@@ -244,6 +244,46 @@
           "install_subdir": "Aurelian_Silva_DS"
         }
       }
+    },
+    "visingers-awata-weak": {
+      "name": "Awata Weak",
+      "team": "ViSingers",
+      "website_url": "https://visingers.github.io/",
+      "link": "https://visingers.github.io/hhskt/Awata_Weak/",
+      "images": ["https://raw.githubusercontent.com/hhskt/Awata_Weak/main/image.png"],
+      "description": "Awata Weak is a robot designed to look like a young girl. She is a virtual singer with a soft, feminine voice.",
+      "long_description": "Multilingual DiffSinger voicebank. For Russian, you must use this phonemizer: https://github.com/Megageorgio/hhskt_ru_phonemizer",
+      "voicebanks": {
+        "DiffSinger": {
+          "id": "visingers-awata-weak-ds",
+          "description": "DiffSinger voicebank package",
+          "url": "https://github.com/hhskt/Awata_Weak/releases/download/diffsinger_v3.0/Awata_Weak_DS_v3.zip",
+          "supportedLanguages": ["en", "ja", "ko", "pt", "ru", "zh"],
+          "types": ["DiffSinger"],
+          "engines": ["DiffSinger"],
+          "install_subdir": "Awata_Weak_DS_v3"
+        }
+      }
+    },
+    "visingers-daisuke": {
+      "name": "Daisuke",
+      "team": "ViSingers",
+      "website_url": "https://visingers.github.io/",
+      "link": "https://visingers.github.io/XHR0ME/daisukeds/",
+      "images": ["https://raw.githubusercontent.com/XHR0ME/daisukeds/main/image.png"],
+      "description": "A male virtual singer with a vibrant voice. A variety of vocal styles allow him to convey different emotions in seven different languages!",
+      "long_description": "A male virtual singer with a bright voice. Various vocal modes allow you to achieve different emotions across seven different languages!\n\n**Native language:** Russian\n**Dataset includes:** Russian, Japanese, English\n\n**7 different vocal modes:**\n- **Standard** — chest voice only, outdated data\n- **Classic** — calm timbre with falsetto high notes\n- **Warm** — softer and cuter voice, outdated data\n- **Vivid** — youthful, powerful sound with a wide range, outdated data\n- **Powerful** — stronger and more masculine sound, outdated data\n- **Falsetto** — airy high notes, outdated data\n- **Mature** — deep, masculine, powerful voice",
+      "voicebanks": {
+        "DiffSinger": {
+          "id": "visingers-daisuke-ds",
+          "description": "DiffSinger voicebank package",
+          "url": "https://github.com/XHR0ME/daisukeds/releases/download/diffsinger_v_114.1/Daisuke_DS_v114.1.wavenet.zip",
+          "supportedLanguages": ["en", "fr", "ja", "ko", "pt", "ru", "zh"],
+          "types": ["DiffSinger"],
+          "engines": ["DiffSinger"],
+          "install_subdir": "Daisuke_DS_v114_1"
+        }
+      }
     }
   }
 }
